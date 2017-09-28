@@ -24,17 +24,11 @@ header {
   text-align: center;
 }
 
-/*h1 {
-  font-weight: 400;
-  font-size: 3em;
+section {
+  margin: 40px auto;
 }
 
-h2 {
-  font-weight: 300;
-  margin-top: 1.75em;
-}*/
-
-section p {
+.conversation h3 {
   font-family: 'Just Another Hand', cursive;
 }
 
@@ -47,7 +41,7 @@ button {
   border: 0;
   border-radius: 50%;
   padding: .7em 1em;
-  margin: 4em auto 3em;
+  margin: 7em auto 10em;
   text-align: center;
   color: #fff;
   background: linear-gradient(180deg, #7439c9 0%, #7439c9 80%, #7439c9 100%);
