@@ -6,8 +6,10 @@ const APIAI_SESSION_ID = process.env.APIAI_SESSION_ID;
 const express = require('express');
 const app = express();
 
-app.use(express.static(__dirname + '/views')); // html
-app.use(express.static(__dirname + '/public')); // js, css, images
+// HTML
+app.use(express.static(__dirname + '/views'));
+// JS | CSS/SASS | IMAGE
+app.use(express.static(__dirname + '/public'));
 
 const server = app.listen(process.env.PORT || 5000, () => {
   console.log('Express server listening on port %d in %s mode', server.address().port, app.settings.env);
@@ -15,7 +17,7 @@ const server = app.listen(process.env.PORT || 5000, () => {
 
 const io = require('socket.io')(server);
 io.on('connection', function(socket){
-  console.log('a user connected');
+  console.log('A user is connected now...');
 });
 
 const apiai = require('apiai')(APIAI_TOKEN);

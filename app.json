@@ -1,6 +1,6 @@
 {
   "name": "Graciela AI ChatBot",
-  "description": "A Simple AI Chat Bot with Web Speech API",
+  "description": "A Simple AI Chat Bot",
   "repository": "https://github.com/GracieChristine/graciela-ai-chatbot",
   "keywords": ["ai", "api.ai", "bot", "w3c"],
   "env": {
