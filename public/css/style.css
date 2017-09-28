@@ -12,7 +12,9 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 300;
+  /*background-image: linear-gradient(to bottom right, #39C2C9 0%, #FFFFFF 20%, #39C2C9 60%, #FFFFFF 100%);*/
   background: linear-gradient(to bottom right, #39C2C9 0%, transparent 10%, #39C2C9 90%);
+  font-family: 'Handlee', cursive;
   color: #333;
   text-align: center;
 }
@@ -22,7 +24,7 @@ header {
   text-align: center;
 }
 
-h1 {
+/*h1 {
   font-weight: 400;
   font-size: 3em;
 }
@@ -30,11 +32,10 @@ h1 {
 h2 {
   font-weight: 300;
   margin-top: 1.75em;
-}
+}*/
 
-section {
-  margin: 1.5em auto;
-  width: 400px;
+section p {
+  font-family: 'Just Another Hand', cursive;
 }
 
 button {
